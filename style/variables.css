@@ -1,0 +1,59 @@
+:root {
+
+    /* Fonts */
+
+    --Flamenco-r: "Flamenco-Regular";
+    --NotoSansDisplay-Medium: "NotoSansDisplay-Medium";
+    --NotoSansDisplay-SemiBold: "NotoSansDisplay-SemiBold";
+    --Inter-Regular: "Inter-Regular";
+    --Inter-Medium: "Inter-Medium";
+    --Inter-SemiBold: "Inter-SemiBold";
+    --Inter-Bold: "Inter-Bold";
+    --Montserrat-Light: "Montserrat-Light";
+    --Montserrat-Regular: "Montserrat-Regular";
+    --Montserrat-Medium: "Montserrat-Medium";
+    --Montserrat-SemiBold: "Montserrat-SemiBold";
+    --Montserrat-Bold: "Montserrat-Bold";
+    --Montserrat-ExtraBold: "Montserrat-ExtraBold";
+    --Roboto-Medium: "Roboto-Medium";
+    --Roboto-Bold: "Roboto-Bold";
+
+    /* Colors */
+
+    --title-color: rgb(255, 255, 255);
+    --title-color2: rgb(0, 0, 0);
+    --text-color: rgb(48, 41, 41);
+    --item-bg-color: rgb(176, 204, 13);
+    --button-bg-color: rgb(255, 168, 0);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    background: rgb(245, 245, 245);
+}
+
+.container {
+    max-width: 1240px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+button {
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
